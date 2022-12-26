@@ -85,6 +85,11 @@ p {
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 767px) {
