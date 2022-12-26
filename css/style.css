@@ -18,7 +18,7 @@ p {
   margin-bottom: 1.6em;
 }
 .container {
-  width: 85%;
+  width: 90%;
   max-width: 850px;
   margin: 0 auto;
 }
@@ -43,7 +43,7 @@ p {
   flex-wrap: wrap;
 }
 .logo {
-  letter-spacing: 15px;
+  letter-spacing: 16px;
   font-size: 1.4em;
 }
 
@@ -69,20 +69,22 @@ p {
 }
 
 .navigation ul li a:hover {
-  background: #4a4a4a;
+  background: #b9b9b9;
 }
 
 .main {
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 
 .footer {
-  background: #f2f2f2;
+  background: #cdcdcd;
   padding: 1rem 0;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
-
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 767px) {
