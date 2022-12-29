@@ -19,11 +19,11 @@ p {
 }
 .container {
   width: 90%;
-  max-width: 850px;
+  max-width: 970px;
   margin: 0 auto;
 }
 .header {
-  background: #333;
+  background: rgb(46, 44, 44);
   color: white;
   padding: 2rem 0;
   position: fixed;
@@ -69,7 +69,7 @@ p {
 }
 
 .navigation ul li a:hover {
-  background: #b9b9b9;
+  background: #5487d4;
 }
 
 .main {
@@ -77,11 +77,35 @@ p {
 }
 
 .footer {
-  background: #cdcdcd;
-  padding: 1rem 0;
+  background: #6e54d7;
+  padding: 0.1rem 0;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
+
+.buttons {
+  min-width: 700px;
+  display: contents;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 1s ease-in-out;
+}
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -93,6 +117,7 @@ h3 {
   gap: 15px;
   padding: 15px;
 }
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 767px) {
